@@ -56,6 +56,9 @@ VALUES
 	('test', 'user'), ('test2', 'user');
 
 2. UPDATE all Ohio addresses to "REDACTED":
+UPDATE usersAddress
+SET address = 'REDACTED'
+WHERE state = 'OH'
 
 3. All three DELETES
 
